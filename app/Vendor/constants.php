@@ -7,8 +7,8 @@
 
 	//FOR WEBSITE CONSTANTS START
 	define('PAGING_SIZE','20');
-	define('SITE_PATH', 'http://172.16.1.90:81/chatting_app/');
-	define('SITEPATH', 'http://172.16.1.90:81/chatting_app/');
+	define('SITE_PATH', 'http://104.237.151.125/Barbuds_PHP/');
+	define('SITEPATH', 'http://104.237.151.125/Barbuds_PHP/');
 	
 	
 	define('EMAIL_ADMIN_FROM', 'Web Services Admin Panel');
