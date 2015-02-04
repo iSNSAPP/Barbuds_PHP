@@ -1,0 +1,107 @@
+body {margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:normal; color:#5a5a5a; background:url(../../img/admin/home_bg.jpg)}
+a, a:visited {outline:none; text-decoration:none; color:#176fba;}
+a:hover {text-decoration:underline;}
+input {font-family:Arial, Helvetica, sans-serif; font-size:12px; vertical-align:middle;}
+textarea {font-family:Arial, Helvetica, sans-serif; font-size:12px; vertical-align:middle;}
+select {font-family:Arial, Helvetica, sans-serif; font-size:12px; vertical-align:middle;}
+form {margin:0 !important;}
+.clr {clear:both !important;}
+.fl {float:left !important;}
+.fr {float:right !important;}
+.vAlign {vertical-align:middle !important;}
+img/admin {border:none;}
+
+.homeLogo {background: 1px silver; text-align:center; padding:70px 0; border-bottom:1px solid #ffffff;}
+.loginCon {width:363px; margin:auto; padding:80px 0 0 0;}
+.loginBox {background:#000; border:1px solid #ffffff; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; border-radius:2px; padding-bottom:10px;}
+.loginHd {font-size:22px; color:#dbdbdb; text-align:center; padding:15px 0;}
+.loginField {float:left; color:#fff; width:80px; padding:15px 0 15px 30px;}
+.loginLabal {float:left; padding:8px 0; width:230px; color:#fff;}
+.loginInput {background:#fff; width:200px; padding:8px; border:none; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; border-radius:2px;}
+
+.inerbackground {}
+.mainCon {width:100%; position:relative;}
+.midLeft {width:200px; position:absolute; left:0; top:0;background:#f5f5f5 url(../../img/admin/iner_bg.jpg) repeat-y left top;height:100%}
+.logo {text-align:center; padding:7px 0 20px 0;background: 1px silver;}
+.topLink {color:#fdfee9; text-align:right; padding:0 10px 25px 0;}
+.topLink a, .topLink a:visited {margin:0 6px; color:#fdfee9;}
+.topLink a:hover {color:#dbe9f4;}
+
+ul#main-nav {padding:0; margin:0; list-style:none;}
+ul#main-nav li {display:block; padding:3px 0 3px 0px; width:200px; text-align:right;}
+ul#main-nav li a, ul#main-nav li a:visited {background:url(../../img/admin/left_link_bg.jpg) no-repeat right; height:21px; color:#fff; display:block; text-decoration:none; padding:5px 15px 0 0;}
+ul#main-nav li a.current:link, ul#main-nav li a.current:visited {background:url(../../img/admin/current_bg.gif) no-repeat right; color:#000; font-weight:bold;}
+
+ul#main-nav li ul {padding:5px 0 0 0; margin:0; list-style:none;}
+ul#main-nav li ul li {padding:5px 0;}
+ul#main-nav li ul li a, ul#main-nav li ul li a:visited {color:#FDFEE9; font-size:11px; background:none; width:auto; height:auto; padding:0 15px 0 0;}
+ul#main-nav li ul li a:hover {color:#cccccc;}
+ul#main-nav li ul li a.current:link, ul#main-nav li ul li a.current:visited {color:#fff; background:url(../../img/admin/wht_aroww.gif) no-repeat right 3px;}
+
+.midRight {margin-left:200px; background:#f5f5f5;}
+.topPart {background:url(../../img/admin/top_bg.jpg) repeat-x top; height:22px; color:#ffffff; padding:8px 25px 0 25px; font-weight:bold;}
+.topPart a, .topPart a:visited {color:#ffffff; text-decoration:none;}
+.topPart a:hover {text-decoration:underline;}
+.rightMid {padding:25px;min-height:500px;}
+.mainHd {font-size:30px; color:#252329; padding-bottom:10px; position:relative; width: 50%;}
+.topText {font-size:14px;}
+.dashbordLink {float:left; padding:20px 40px 10px 0;}
+.dashbordLink a, dashbordLink a:visited {background:#f5f7f9 url(../../img/admin/dashbored_link_bg.gif) repeat-x bottom;; width:115px; height:110px; border:1px solid #dad9d9; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; border-radius:2px; display:block; color:#474747; font-size:14px; text-align:center; padding:0 10px; line-height:18px;}
+.dashbordLink a:hover {background:#fff; color:#176fba; text-decoration:none;}
+
+.footer {margin:0 0px; background: url("../../img/admin/top_bg.jpg") repeat-x scroll center top transparent; border-top:1px solid #c1c1c1; font-size:11px; padding:10px 25px 10px 25px; color:#ffffff; height:10px; text-align:center;}
+
+.rpHd th{font-size:12px; font-weight:bold; border-bottom:1px solid #ccc; padding:10px 5px; vertical-align:top;}
+.rpFirstRow td {background:#fff; padding:10px 5px; border-bottom:1px solid #ccc; vertical-align:middle; font-size:13px;text-align:center}
+.rpSecRow td {background:#eee; padding:10px 5px; border-bottom:1px solid #ccc; vertical-align:middle;text-align:center;font-size:13px;}
+.rpSecRow td a, .rpSecRow td a:visited{ color:#5a5a5a; text-decoration:none;}
+.rpSecRow td a:hover{ color:#176fba;}
+.rpFirstRow td a, .rpFirstRow td a:visited{ color:#5a5a5a; text-decoration:none;}
+.rpFirstRow td a:hover{ color:#176fba;}
+.redClr {color:#F00;}
+.iconlink{ margin-left:3px;}
+
+.formInput {width:70%; padding:7px; -moz-border-radius:6px; -webkit-border-radius:6px; -khtml-border-radius:6px; border-radius:6px; background:#fff; border:2px solid #CACACA; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+.formInputsel {width:70%; padding:6px 6px 18px 6px; -moz-border-radius:6px; -webkit-border-radius:6px; -khtml-border-radius:6px; border-radius:6px; background:#fff; border:1px solid #eee; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+
+
+.formField {padding-bottom:15px;}
+.formField span {display:block; font-weight:bold; padding:0 0 4px 5px;}
+.btn {filter:alpha(opacity=100); -moz-opacity:1; opacity:1; color:#FFFFFF; background:url(../../img/admin/save_btn.gif) no-repeat; height:41px; text-align:center; border:none; font-size:18px; width:90px; cursor:pointer;}
+.btn:hover {filter:alpha(opacity=70); -moz-opacity:.7; opacity:.7;}
+
+.signinbtn {filter:alpha(opacity=100); -moz-opacity:1; opacity:1; color:#FFFFFF; background:url(../../img/admin/signin_btn.png) no-repeat;  height:29px; text-align:center; border:none; font-size:12px; width:67px; cursor:pointer; margin-right:10px;}
+.signinbtn:hover {filter:alpha(opacity=70); -moz-opacity:.7; opacity:.7;}
+
+
+.paging {float:right; padding:15px 0 0 0;}
+.paging a, .paging a:visited {margin:0 0 0 4px; padding:2px 10px; display:block; float:left; background:#eee; color:#000; border:1px solid #ccc; -moz-border-radius:4px; -webkit-border-radius:4px; -khtml-border-radius:4px; border-radius:4px; text-decoration:none;}
+.paging a:hover {background:#1c90c0; color:#fff; border:1px solid #0f85b7;}
+.paging a.sel:link, .paging a.sel:visited {background:#1c90c0; color:#fff; border:1px solid #0f85b7;}
+
+/*Start 30.04.2012*/
+.listviewtab {margin:20px 0;}
+.listviewtab td {vertical-align:top; padding:10px 3px; border-bottom:1px solid #cecece; font-size:14px;}
+
+.norbtnmain {padding:8px 0; width:230px; color:#fff;}
+.normalbtn {filter:alpha(opacity=100); -moz-opacity:1; opacity:1; color:#ffffff !important; background:url(../../img/admin/normal_btn.jpg) no-repeat;  height:29px; text-align:center; border:none; font-size:12px; width:108px; cursor:pointer; text-decoration:none;}
+.normalbtn:hover {filter:alpha(opacity=70); -moz-opacity:.7; opacity:.7; text-decoration:none;}
+
+.insidebox{ margin-bottom:8px; font-family:Arial, Helvetica, sans-serif; background:#e8e8e8; padding:5px 0 5px 10px;}
+.insidehd{ font-size:12px; font-weight:bold; color:#000; padding-bottom:5px;}
+.insidechbox{ margin:5px 5px 5px 0;}
+.insidebox span{ padding-right:12px;}
+
+.searchtopbox{ width:96%; background:#FFFFFF; border:#cccccc 1px solid; padding:2%; margin-bottom:10px;}
+.industry {width:100%; padding:6px 6px 6px 6px; -moz-border-radius:6px; -webkit-border-radius:6px; -khtml-border-radius:6px; border-radius:6px; background:#fff; border:1px solid #eee; font-family:Arial, Helvetica, sans-serif; font-size:12px; margin-top:6px;}
+.industryfl{ width:48%; float:left;}
+.industryfr{ width:48%; float:right; }
+.featurehd {font-size:12px; font-weight:bold; padding:10px 0 0 0;}
+.featureinmainbox {padding:5px 0;}
+.featurebox{ margin:9px 5px 9px 10px;}
+.featureinsiebox {width:68%; float:left; color:#999;}
+.featureinsiebox span {width:220px; display:inline-block;}
+.featureinsieboxNew {color:#999;}
+.featureinsieboxNew span {width:200px; display:inline-block;}
+.featuresubhd {padding-top:7px; float:left; width:185px; margin-right:5px;}
+.borBot {border-top:1px dashed #eee;}

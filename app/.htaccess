@@ -1,0 +1,10 @@
+RewriteEngine On 
+ 
+ ## This is the .htaccess you need when putting a php.ini on an account. Only copy the stuff below these first 2 lines, and please put it
+## at the top of the .htaccess above everything else.
+## Make sure you change the suPHP_ConfigPath to the proper path to the php.ini file
+
+<IfModule mod_suphp.c>
+   RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+</IfModule>

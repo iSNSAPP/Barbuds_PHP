@@ -1,0 +1,32 @@
+/*----- Custom Messages Start -----*/
+.info, .message-green, .warning, .message-red, .validation {border: 1px solid; margin: 10px 0px; padding:12px 10px 12px 50px; background-repeat: no-repeat; background-position: 10px center;}
+.info {color: #00529B; background-color: #BDE5F8;}
+.message-green {color: #4F8A10; background-color: #DFF2BF; background-image: url('../../img/admin/success.png'); -moz-border-radius:5px 5px 5px 5px;}
+.warning {color: #9F6000; background-color: #FEEFB3;}
+.message-red {color: #D8000C; background-color: #FFBABA; background-image: url('../../img/admin/error.png'); -moz-border-radius:5px 5px 5px 5px;}
+/*----- Custom Messages End  -----*/
+
+/*----- Bread Crumb section Start -----*/
+.breadcrumb{font-size:16px; font-weight: bold; line-height: 16px; border-bottom: 1px solid #DDDDDD; padding: 0 0 10px; margin-bottom:15px;} 
+.breadcrumb a{color:#646464; text-decoration:none;}
+.breadcrumb a.active{color:#dc0b14; text-decoration:none;}
+.breadcrumb a.send_back{color:#646464; text-decoration:none; font-size:12px;}
+/*----- Bread Crumb section End -----*/
+
+/*----- Error Message Start -----*/
+.error-message{color:#FF0000;}
+/*----- Error Message End -----*/
+
+/*----- For POPUPS start -----*/
+.mainDivPopup{float: left; margin-left: 10px; padding: 0 19px 0 0; width: 700px; color: #000000; font-family: 'Arial-BoldMT','Arial',sans-serif; font-size: 12px; line-height: normal;}
+.mainDivPopup fieldset{background: none repeat scroll 0 0 #FBFBFB; border: 1px solid #DDDDDD; margin: 0 0 20px; padding: 19px;}
+.clr {clear:both; height:10px !important; _overflow:hidden; }
+.leftPartDiv{float:left; font-weight:bold; width:160px;}
+.rightPartDiv{float:left; font-weight:normal; width:450px;}
+/*----- For POPUPS end -----*/
+
+.tdfontbold{padding:5px;font-weight:bold}
+.tdfont{padding:5px;}
+.firstrow{ background-color:#efefef;}
+.secrow{ background-color:#fefefe;}
+.amtsecrow{ background-color:#AEDDAC; font-size:11px;}
