@@ -41,7 +41,7 @@ class ApiController extends AppController {
                     exit;
                 } else {
                     $info = $this->User->find('count', array('conditions' => array('User.device_id' => $encData['device_id'])));
-                    if ($info) {
+                    if ($info >= 1) {
                         $result['status'] = 'It is not allowed to make more than one account on the same device';
                         $result['result'] = 'Fail';
                         echo json_encode($result);
