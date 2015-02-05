@@ -936,10 +936,6 @@ class ApiController extends AppController {
             $attendingUsers = $this->EventUser->find('all', array(
                 'conditions' => array('EventUser.event_id' => $event_id, 'EventUser.user_status' => '1')
             ));
-//            $attendingUsers = $this->EventUser->find('all', array(
-//                'conditions' => array(''),
-//                'group' => array('EventUser.user_id')
-//            ));
             if (empty($attendingUsers)) {
                 $result['status'] = 'No user';
                 $result['result'] = 'Fail';
