@@ -61,7 +61,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => '',
+		'password' => 'wearethec6',
 		'database' => 'smart_chatting',
 		'prefix' => 'job_',
 		//'encoding' => 'utf8',
