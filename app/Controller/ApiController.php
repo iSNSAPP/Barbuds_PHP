@@ -989,7 +989,7 @@ class ApiController extends AppController {
                 . "AS distance FROM job_users", $latitude, $longitude, $latitude);
         $surQuery = "SELECT B.* FROM (" . $surQuery . ") AS B ";
         $surQuery .= sprintf(" WHERE B.id <> '%s' ", $user_id);
-        $surQuery .= sprintf(" AND B.distance <= '%s' ", $distance);
+        //$surQuery .= sprintf(" AND B.distance <= '%s' ", $distance);
 
         if ($age != -1) {
             $surQuery .= sprintf(" AND YEAR(CURDATE()) - YEAR(B.dob) < %s", $age);
